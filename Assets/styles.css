@@ -204,3 +204,13 @@ margin: 0 auto;
     padding: 2px;
     border-block-color: black;
 }
+
+@media screen and (max-width: 992px) {
+    #aboutme {
+        display: block;
+    }
+    #portfolio {
+        flex-direction: column;
+}
+    
+}
