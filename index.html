@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Dongle:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="Assets/styles.css">
     <title>dylan honeyman</title>
 </head>
 <main>
@@ -16,7 +16,7 @@
         honeyman
     </pre></h1>
     <h2 class='intro'>hello, i am dylan. see what I have done.</h2>
-    <div>
+    <div id="navbar">
         <a id="about-me" href="#aboutme">about me</a>
         <a id ="portfoliolink" href="#portfolio">Portfolio</a>
         <a id="contact-active" href="#newcontact">contact</a>
@@ -24,14 +24,14 @@
     </div>
 
     <!-- section currently hidden because cant get it to work -->
-    <section id='contact'>
+    <!-- <section id='contact'>
         <label for="name">Name: </label>
         <input type="text" name="insert name" id="name" placeholder="nombre"/>
         <label for="email">Email: </label>
         <input type="text" name="email" id="email" placeholder="Email"/>
         <label for="phnumber">Phone Number: </label>
         <input type="text" name="phone number" id="phnumber" placeholder="phone number"/>
-    </section>
+    </section> -->
     <section id='aboutme'>
         <h2>About Me</h2>
         <p>My name is Dylan Honeyman and I am studying software engineering. I currently have a bachelors of science in geological physics
@@ -40,35 +40,52 @@
             more challenging and fulfilling. 
         </p>
     </section>
+    <section id='firstproject'>
+        <h2>first project</h2>
+            <a href="https://dhoneyman.github.io/HTML-CSS-semantic-structure/" alt="my first project">
+                <img src="Assets/digital-marketing-meeting.jpg"/>
+            </a>
+    </section>
     <ul id='portfolio'>
-        <li class='first'>
+        <!-- <li id='first'>
             <h2>first project</h2>
             <a href="https://dhoneyman.github.io/HTML-CSS-semantic-structure/" alt="my first project">
                 <img src="O0eCp4p.jpeg" width="1000px"/>
             </a>
-        </li>
+        </li> -->
         <li class='second'>
             <h2>second project</h2>
-            <img src="rQtDjiK.jpeg" width="500px"/>
+            <img src="Assets/rQtDjiK.jpeg" />
         </li>
         <li class='third'>
             <h2>third project</h2>
-            <img src="rXWrR09.jpeg" width="500px"/>
+            <img src="Assets/rXWrR09.jpeg" />
         </li>
         <li class='fourth'>
             <h2>fourth project</h2>
-            <img src="IMG_3646.JPG" width="500px"/>
+            <img src="Assets/IMG_3646.JPG" />
         </li>
         <li class='fifth'>
             <h2>fifth project</h2>
-            <img src="IMG_3790.JPG" width="500px"/>
+            <img src="Assets/IMG_3790.JPG" />
         </li>
         <li class='sixth'>
             <h2>sixth project</h2>
-            <img src="IMG_3897.JPG" width="500px"/>
+            <img src="Assets/IMG_3897.JPG" />
         </li>
     </ul>
     <section id='newcontact'>
+        
+            <h2>contact</h2>
+            <div id='contactimages'>
+            <a href='https://github.com/dhoneyman'>   
+                <img src='Assets/Github_logo_PNG1.png' alt='github link' width= '50px'/></a>
+            <a href='https://www.linkedin.com/in/dylan-honeyman-0b78631aa/'>
+                <img src='Assets/LinkedIn-Icon-Black-Logo.wine.png' alt='linked in link' width= '65px'/></a>
+            </div>
+            <p>
+            Want to reach out?
+        </p>
         <label for="name">Name: 
         <input type="text" name="insert name" id="name" placeholder="nombre"/> </label>
         <label for="email">Email: 
@@ -76,6 +93,7 @@
         <label for="phnumber">Phone Number: 
         <input type="text" name="phone number" id="phnumber" placeholder="phone number"/></label>
     </section>
+    <input id='button' type='button' value='submit'>
 </main>
 <body>
     
