@@ -17,30 +17,65 @@
     </pre></h1>
     <h2 class='intro'>hello, i am dylan. see what I have done.</h2>
     <div>
-        <a href="#dead">dead</a>
-        <a href="#alive">alive</a>
+        <a id="about-me" href="#aboutme">about me</a>
+        <a id ="portfoliolink" href="#portfolio">Portfolio</a>
+        <a id="contact-active" href="#newcontact">contact</a>
+
     </div>
-    <ul>
+
+    <!-- section currently hidden because cant get it to work -->
+    <section id='contact'>
+        <label for="name">Name: </label>
+        <input type="text" name="insert name" id="name" placeholder="nombre"/>
+        <label for="email">Email: </label>
+        <input type="text" name="email" id="email" placeholder="Email"/>
+        <label for="phnumber">Phone Number: </label>
+        <input type="text" name="phone number" id="phnumber" placeholder="phone number"/>
+    </section>
+    <section id='aboutme'>
+        <h2>About Me</h2>
+        <p>My name is Dylan Honeyman and I am studying software engineering. I currently have a bachelors of science in geological physics
+            from the university of texas at dallas. I am an avid cylclist and rock climber. I worked in upper level management for a small chain of climbing gyms
+            in the dallas area for about 8 years. I made the switch to software engineering because I desired a change in careers to something I found
+            more challenging and fulfilling. 
+        </p>
+    </section>
+    <ul id='portfolio'>
         <li class='first'>
             <h2>first project</h2>
-            <img src="O0eCp4p.jpeg" width="500px"/>
+            <a href="https://dhoneyman.github.io/HTML-CSS-semantic-structure/" alt="my first project">
+                <img src="O0eCp4p.jpeg" width="1000px"/>
+            </a>
         </li>
         <li class='second'>
             <h2>second project</h2>
+            <img src="rQtDjiK.jpeg" width="500px"/>
         </li>
         <li class='third'>
             <h2>third project</h2>
+            <img src="rXWrR09.jpeg" width="500px"/>
         </li>
         <li class='fourth'>
             <h2>fourth project</h2>
+            <img src="IMG_3646.JPG" width="500px"/>
         </li>
         <li class='fifth'>
             <h2>fifth project</h2>
+            <img src="IMG_3790.JPG" width="500px"/>
         </li>
         <li class='sixth'>
             <h2>sixth project</h2>
+            <img src="IMG_3897.JPG" width="500px"/>
         </li>
     </ul>
+    <section id='newcontact'>
+        <label for="name">Name: 
+        <input type="text" name="insert name" id="name" placeholder="nombre"/> </label>
+        <label for="email">Email: 
+        <input type="text" name="email" id="email" placeholder="Email"/></label>
+        <label for="phnumber">Phone Number: 
+        <input type="text" name="phone number" id="phnumber" placeholder="phone number"/></label>
+    </section>
 </main>
 <body>
     
