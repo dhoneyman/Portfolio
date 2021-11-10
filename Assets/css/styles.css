@@ -129,7 +129,9 @@ img:hover {
 }
 
 #firstproject {
+    
     text-align: center;
+    justify-content: center;
     width: 85%;
     margin:0 auto;
     border: 20px;
@@ -211,6 +213,9 @@ margin: 0 auto;
     }
     #portfolio {
         flex-direction: column;
-}
+    }
+    #firstproject {
+        margin-right:42px;
+    }
     
 }
