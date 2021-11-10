@@ -12,10 +12,10 @@ This online portfolio displays my current work :
 
 ## Actual Behavior
 
-The portfolio is set up with media queries and flex boxs to display appropriately on smart phones and tablets. 
+The portfolio is set up with media queries and flex boxes to display appropriately on smart phones and tablets. 
 
 
-## Deplyed Application
+## Deployed Application
 
 The portfolio page can be found below. Enjoy!
 
