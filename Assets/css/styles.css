@@ -114,6 +114,9 @@ h1:hover::after {
     flex-direction: row;
     flex-wrap: wrap;
 }
+
+.third > a > img,
+.second > a > img,
 #firstproject > a > img,
 li > img {
     padding: 0px 5px 5px 5px;
@@ -123,7 +126,9 @@ li > img {
     width: 100%;
 }
 
-img:hover {
+img:hover,
+a > img:hover,
+#firstproject > a > img:hover {
     opacity: 1;
     transition-duration: 1s;
 }
